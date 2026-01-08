@@ -40,18 +40,37 @@ This project demonstrates practical usage of **React, Redux, Node.js, Express, a
 BookVerse/
 ├── backend/
 │   ├── conn/
+│   │   └── conn.js          # MongoDB connection
 │   ├── models/
+│   │   ├── book.js
+│   │   ├── order.js
+│   │   └── user.js
 │   ├── routes/
-│   ├── app.js
-│   └── package.json
+│   │   ├── book.js
+│   │   ├── cart.js
+│   │   ├── favourite.js
+│   │   ├── order.js
+│   │   ├── user.js
+│   │   └── userAuth.js
+│   ├── app.js               # Express app entry point
+│   ├── package.json
+│   └── package-lock.json
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   ├── store/
-│   ├── pages/
-│   └── package.json
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── store/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── tailwind.config.js
+│   ├── vite.config.js
+│   ├── package.json
+│   └── README.md
 │
+├── .gitignore
 └── README.md
 
 ````
