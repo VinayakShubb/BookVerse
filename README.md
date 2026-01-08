@@ -1,8 +1,3 @@
----
-
-## Create a file **`README.md` in BookVerse root** and paste this:
-
----
 
 #  BookVerse – MERN Online Book Store
 
